@@ -5,22 +5,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-section
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: beige;
+.custom-navbar {
+    background: rgb(0,0,0);
+    background: linear-gradient(166deg, rgba(0,0,0,0.9948354341736695) 39%, rgba(255,255,255,1) 85%);
+    font-weight: bold;
 }
 
-.blob
-{
-    background-image: url('./assets/profilepic.png');
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: wheat;
+.custom-navbar * {
+    background-color: inherit;
+}
+
+/* .mylogo {
+    position: relative;
+    width: 200px;
+    height: 70px;
+    opacity: 90%;
+} */
+
+.logo-text {
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+
+}
+
+section {
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    min-height: 100vh;
+    background: white;
+}
+
+
+.blob {
+    position: relative;
+    width: 400px;
+    height: 400px;
+ 
+}
+
+/* .blob:nth-child(1){
+    filter: blur(50px);
+} */
+
+.icon1 {
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.icon2 {
+    width: 42px;
+    height: 42px;
 }
