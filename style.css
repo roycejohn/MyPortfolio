@@ -5,3 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: beige;
+}
+
+.blob
+{
+    background-image: url('./assets/profilepic.png');
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: wheat;
+}
